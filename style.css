@@ -1,36 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Jua|Pragati+Narrow');
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .art {
-    margin: 2px;
+    font-family: 'Pragati Narrow', sans-serif;
+    /* max-width: 200px;
+    max-height: 500px; */
+    padding: 2px 4px 2px 2px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Pragati Narrow', sans-serif;
+    margin: 1px;
+    background: linear-gradient(0deg, orange, white);
+    text-align: center;
+}
+
+.tg {
+    margin: 0px;
     display: inline-block;
     border-radius: 10px;
     border-spacing: 0;
-    width: 200px
+    text-align: center;
+    /* vertical-align: middle; */
+}
+.tg tr {
+    /* height: 30px; */
+    text-align: center;
 }
 
-.art td {
+.art-opis1 {
+    border-style: 0px ;
+
+}
+.art-par1, .art-par2, .art-par3  {
+    border-style: 0px ;
+    margin:0px;
+    padding:0px;
+}
+
+ 
+
+.art-nazwa, .art-dost {
+    background: linear-gradient(0deg, white, yellow, white);
+}
+
+
+
+.tg td {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
     border-style: solid;
     border-width: 1px;
     overflow: hidden;
     word-break: normal;
-    border-color: black
+    border-color: black;
+    width: 50px;
+    text-align: center;
+    /* height: 13%; */
 }
 
-.art .art-8m4o {
+.tg .tg-8m4o {
     font-size: 10px;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
     text-align: center;
     border-radius: 10px
 }
 
-.art .art-eutr {
+.tg .tg-eutr {
     font-size: 10px;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
     vertical-align: top;
-    border-radius: 10px
+    border-radius: 10px;
+    text-align: center;
 }
